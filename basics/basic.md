@@ -18,7 +18,7 @@ var randomNumber
 ```
 ## String Interpolation
 ```swift
-print("The sum is \(2+3))"
+print("The sum is \(2+3)")
 ```
 
 ## Constants
