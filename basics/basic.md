@@ -6,5 +6,8 @@
 5. String
 
 ## Code
-`var num = 12`
-`var num : Int`
+```swift
+var num = 5
+var num : Int
+```
+
