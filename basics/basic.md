@@ -16,6 +16,10 @@ In swift, we use camel case convention for writing the variables and functions
 var pressedButton
 var randomNumber
 ```
+## String Interpolation
+```swift
+print("The sum is \(2+3)"
+```
 
 ## Constants
 For a varaible, whose value will remain constant throughout the code we use let keyword
