@@ -12,6 +12,10 @@ var num : Int
 ```
 ## Naming Convention
 In swift, we use camel case convention for writing the variables and functions
+```swift
+var pressedButton
+var randomNumber
+```
 
 ## Constants
 For a varaible, whose value will remain constant throughout the code we use let keyword
