@@ -27,9 +27,9 @@ let age = 19
 Arrays are one of the most commonly used data types in an app. You use arrays to organize your app’s data.
 ```swift
 // An array of 'Int' elements
-let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]
+let oddNumbers = [1, 3, 5, 7, 9, 11]
 
 
 // An array of 'String' elements
-let streets = ["Albemarle", "Brandywine", "Chesapeake"]
+let cities = ["Lucknow", "Delhi", "Mumbai", "Pune"]
 ```
