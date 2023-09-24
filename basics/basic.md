@@ -6,5 +6,5 @@
 5. String
 
 ## Code
-`var num = 12
- var num : Int`
+`var num = 12`
+`var num : Int`
