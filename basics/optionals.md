@@ -5,7 +5,7 @@ var name: String?
 ```
 The name string is now declared as an optional.
 
-# Force Unwrapping
+## Force Unwrapping
 Forced Unwrapping is denoted by “!” to the optional’s name. The exclamation mark says that I know for sure that this optional has a value here, use it. For example:
 ```swift
 var name: String?
