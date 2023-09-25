@@ -10,5 +10,14 @@ Forced Unwrapping is denoted by “!” to the optional’s name. The exclamatio
 ```swift
 var name: String?
 name = “Ujjawal Singh”
-println(name!)
+print(name!)
+```
+## Optional Binding
+To check if a variable has a value or not
+```swift
+if let actualName = name{
+ print(“The name is: \(actualName)”)
+} else {
+ print(“name is nil”)
+}
 ```
