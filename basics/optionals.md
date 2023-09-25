@@ -12,6 +12,12 @@ var name: String?
 name = “Ujjawal Singh”
 print(name!)
 ```
+## Check for nil value
+```swift
+if name != nil{
+  print(name!)
+}
+```
 ## Optional Binding
 To check if a variable has a value or not
 ```swift
@@ -20,4 +26,17 @@ if let actualName = name{
 } else {
  print(“name is nil”)
 }
+```
+
+## Nil Coalescing Operator
+Use the nil-coalescing operator (??) to supply a default value in case the Optional instance is nil. 
+```swift
+optional ?? default value
+```
+
+## Optional Chaining
+It is used to safely access the properties and methods of a wrapped instance, use the postfix optional chaining operator (postfix ?).
+```swift
+optional?.property
+optional?.method()
 ```
