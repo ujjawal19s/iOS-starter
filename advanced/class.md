@@ -70,3 +70,4 @@ class Train: Vehicle {
 | struct MyStruct { }  | class MyClass : SuperClass { } |
 | pass by value (copy of the file)  | pass by reference (original file) |
 | Immutable  | Inheritance |
+| Stored in Stack | Stored in Heap |
