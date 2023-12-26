@@ -37,3 +37,13 @@ let oddNumbers = [1, 3, 5, 7, 9, 11]
 // An array of 'String' elements
 let cities = ["Lucknow", "Delhi", "Mumbai", "Pune"]
 ```
+##Randomization
+Returns a random value within the specified range.
+```swift
+for num in 1...3 {       // including 3
+    print(Int.random(in: 1..<100))    // not including 100
+}
+// Prints "53"
+// Prints "64"
+// Prints "5"
+```
