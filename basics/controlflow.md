@@ -34,7 +34,9 @@ default:
 
 ## Dictionary 
 Swift dictionary is an unordered collection of items. It stores elements in key/value pairs. Here, keys are unique identifiers that are associated with each value.
-
+```swift
+var dict : [String : Int]
+```
 ```swift
 var responseMessages = [200: "OK",
                         403: "Access forbidden",
